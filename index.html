@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment-5</title>
+ <!-- daisui and tailwind cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- font awesome cdn -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body class="bg-gray-100">
+     <!-- DIV SECTION -->
+      <nav class="flex justify-between bg-white p-6">
+        <div class="flex items-center gap-1">
+          <img src="./assets/logo.png" alt="" class="w-6 h-7">
+          <p class="font-semibold text-green-800">Emergency <br> Service</p>
+        </div>
+
+        <!-- nav right side -->
+         <div class="flex items-center gap-3">
+      <!-- Heart -->
+      <div class="flex items-center space-x-1 bg-green-50 px-2 py-1 rounded-full">
+        <span>0</span><img src="./assets/heart.png" alt="" class="w-5 h-5">
+      </div>
+      <!-- Coins -->
+      <div class="flex items-center space-x-1 bg-green-50 px-2 py-1 rounded-full">
+        <span class="font-bold">100</span><img src="./assets/coin.png" alt="" class="w-5 h-5">
+      </div>
+      <!-- copy section -->
+       <div class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700">
+        <span>2</span> Copy
+       </div>
+      </nav>
+
+      <section class="bg-gradient-to-r from-green-900 to-green-700 text-white">
+        <div class="max-w-6xl mx-auto flex flex-col items-center text-center py-6 px-4">
+          <img src="./assets/logo-dark.png" alt="" class="w-15 h-15 justify-center items-center">
+        <h2 class=" text-xl font-bold text-white ">Emergency Service Directory</h2>
+        <p class="text-[#ffffff] text-sm">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
+
+      </section>
+  
+  
+  <!-- MAIN SECTION -->
+  <main class="bg-gray-100">
+        <!-- <section id="banner"></section> -->
+        
+        <section id="products-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8" >
+        <section id="products-box" class=" col-span-9">
+          
+          <!-- card 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+    <div class="card bg-white shadow-md p-4 rounded-xl">
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">National Emergency Number</h2>
+            <p class="text-sm text-gray-500">National Emergency</p>
+            
+            <p class="text-2xl font-bold mt-4">999</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">All</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2">📋 Copy</button>
+        <button class="btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2">📞 Call</button>
+      </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+        <div class="card bg-white shadow-md p-4 rounded-xl">
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">National Emergency Number</h2>
+            <p class="text-sm text-gray-500">National Emergency</p>
+            
+            <p class="text-2xl font-bold mt-4">999</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">Police</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2">📋 Copy</button>
+        <button class="btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2">📞 Call</button>
+      </div>
+          </div>
+        </div>
+    <!-- card-2 -->
+        <div class="card bg-white shadow-md p-4 rounded-xl">
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">National Emergency Number</h2>
+            <p class="text-sm text-gray-500">National Emergency</p>
+            
+            <p class="text-2xl font-bold mt-4">999</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">Fire</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2">📋 Copy</button>
+        <button class="btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2">📞 Call</button>
+      </div>
+          </div>
+        </div>
+        
+
+              
+</section> 
+     </section>
+    </main>
+     
+</html>
+
+</body>
+</html>
