@@ -12,7 +12,7 @@
 </head>
 <body class="bg-gray-100">
      
-      <nav class="flex justify-between bg-white p-6">
+      <nav class="flex justify-between bg-white p-6 ">
         <div class="flex items-center gap-1">
           <img src="./assets/logo.png" alt="" class="w-6 h-7">
           <p class="font-semibold text-green-800">Emergency <br> Service</p>
@@ -30,11 +30,11 @@
       </div>
       <!-- copy section -->
        <div class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700">
-        <span  id="copyCount">2</span> Copy
+        <span  id="copyCount">0</span> Copy
        </div>
       </nav>
 
-      <section class="bg-gradient-to-r from-green-900 to-green-700 text-white">
+      <section class="bg-gradient-to-r from-green-900 to-green-700 text-white ">
         <div class="max-w-6xl mx-auto flex flex-col items-center text-center py-6 px-4">
           <img src="./assets/logo-dark.png" alt="" class="w-15 h-15 justify-center items-center">
         <h2 class=" text-xl font-bold text-white ">Emergency Service Directory</h2>
@@ -44,15 +44,15 @@
       </section>
   
   
-  <!-- MAIN SECTION -->
   <main class="bg-gray-100">
-        <!-- <section id="banner"></section> -->
         
-        <section id="products-container" class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-8" >
+        
+        <section id="products-container" class="w-11/12  mx-auto py-10 grid grid-cols-12 gap-8" >
         <section id="products-box" class=" col-span-9">
           
-          <!-- card 1 -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+          
+           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- card 1 -->
     <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='National Emergency Number' data-number='999'>
     
      <div class="flex justify-between items-center py-2 ">
@@ -120,7 +120,138 @@
       </div>
           </div>
         </div>
-     
+     <!-- card-4 -->
+        <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='Ambulance Service' data-number='1994-999999'>
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart loveBtn" id="loveBtn"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">Ambulance Service</h2>
+            <p class="text-sm text-gray-500">Ambulance</p>
+            
+            <p class="text-2xl font-bold mt-4">1994-999999</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">Health</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2 total-quantity copyBtn" id="copyBtn">Copy</button>
+        <button class="callBtn card-btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2" >📞 Call</button>
+      </div>
+          </div>
+        </div>
+        <!-- card-5 -->
+           <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='Women & Child Helpline' data-number='109'>
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart loveBtn" id="loveBtn"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">Women & Child Helpline</h2>
+            <p class="text-sm text-gray-500">Women & Child Helpline</p>
+            
+            <p class="text-2xl font-bold mt-4">109</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">Help</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2 total-quantity copyBtn" id="copyBtn">Copy</button>
+        <button class="callBtn card-btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2" >📞 Call</button>
+      </div>
+          </div>
+        </div>
+        <!-- card-6 -->
+           <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='Anti-Corruption Helpline' data-number='106'>
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart loveBtn" id="loveBtn"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">Anti-Corruption Helpline</h2>
+            <p class="text-sm text-gray-500">Anti-Corruption</p>
+            
+            <p class="text-2xl font-bold mt-4">106</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">Govt.</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2 total-quantity copyBtn" id="copyBtn">Copy</button>
+        <button class="callBtn card-btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2" >📞 Call</button>
+      </div>
+          </div>
+        </div>
+     <!-- card-7 -->
+        <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='Electricity Helpline' data-number='16216'>
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart loveBtn" id="loveBtn"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">Electricity Helpline</h2>
+            <p class="text-sm text-gray-500">Electricity Outage</p>
+            
+            <p class="text-2xl font-bold mt-4">16216</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">Electricity</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2 total-quantity copyBtn" id="copyBtn">Copy</button>
+        <button class="callBtn card-btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2" >📞 Call</button>
+      </div>
+          </div>
+        </div>
+        <!-- card-8 -->
+           <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='Brac Helpline' data-number='16445'>
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart loveBtn" id="loveBtn"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">Brac Helpline</h2>
+            <p class="text-sm text-gray-500">Brac</p>
+            
+            <p class="text-2xl font-bold mt-4">16445</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">NGO</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2 total-quantity copyBtn" id="copyBtn">Copy</button>
+        <button class="callBtn card-btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2" >📞 Call</button>
+      </div>
+          </div>
+        </div>
+        <!-- card-9 -->
+           <div class="card bg-white shadow-md p-4 rounded-xl service-card" data-service='Bangladesh Railway Helpline' data-number='163'>
+    
+     <div class="flex justify-between items-center py-2 ">
+              <img src="./assets/emergency.png" alt="" class="w-10 h-10 bg-[#ffe3e2]  rounded-xl hover:bg-red-700">
+              <i class="fa-regular fa-heart loveBtn" id="loveBtn"></i>
+            
+            </div>
+          <div>
+            <h2 class="font-bold">Bangladesh Railway Helpline</h2>
+            <p class="text-sm text-gray-500">Bangladesh Railway</p>
+            
+            <p class="text-2xl font-bold mt-4">163</p>
+
+       <span class="bg-gray-300 text-white px-3 py-1 rounded-full hover:bg-gray-700">TraveL</span>
+
+       <div class="flex space-x-2 mt-4 py-3">
+        <button class="btn btn-sm w-1/2 total-quantity copyBtn" id="copyBtn">Copy</button>
+        <button class="callBtn card-btn btn-sm bg-green-600 text-white hover:bg-green-700 w-1/2" >📞 Call</button>
+      </div>
+          </div>
+        </div>
     
      
 

@@ -3,19 +3,23 @@ const coinEl = document.getElementById("coinCount");
 const copyEl = document.getElementById("copyCount");
 const historyList = document.getElementById("historyList");
 
-// Function for Love
+
 function increaseLove() {
   loveEl.textContent = parseInt(loveEl.textContent) + 1;
 }
 
-// Function for Copy
+
 function increaseCopy() {
   copyEl.textContent = parseInt(copyEl.textContent) + 1;
+  alert("number is copy")
+  
 }
 
-// Function for Call
+
 function makeCall(serviceName, number) {
   let coins = parseInt(coinCount.textContent);
+  alert("calling")
+  
   if (coins < 20) {
     alert("কমপক্ষে ২০ কয়েন থাকতে হবে!");
     return;
@@ -37,7 +41,7 @@ function makeCall(serviceName, number) {
   }
 }
 
-// Function for Clear
+
 function clearHistory() {
   historyList.innerHTML = "";
 
@@ -53,7 +57,7 @@ document.querySelectorAll(".service-card").forEach(card => {
   card.querySelector(".callBtn").addEventListener("click", () => makeCall(service, number));
 });
 
-// Clear button
+
 document.getElementById("clearBtn").addEventListener("click", clearHistory);
 
 
